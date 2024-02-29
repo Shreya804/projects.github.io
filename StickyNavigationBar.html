@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navigation Bar</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="StickyNavigationBar.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg  fixed-top bg-custom text-success" >
+    <a class="navbar-brand" href="#"><h3>News Website</h3></a>
+    
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto" id="nav-bar">
+        <li class="nav-item">
+          <a class="nav-link"  href="#news" >News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sports" >Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#entertainment" >Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#opinion" >Opinion</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div  id="news" style="height: 800px; background-color: #d1fbfb;padding: 100px;">
+      <h2>News Section</h2>
+      <!-- Your news content here -->
+    </div>
+    <div id="sports" style="height: 800px; background-color: #d1fbfb;padding: 100px;">
+      <h2>Sports Section</h2>
+      <!-- Your sports content here -->
+    </div>
+    <div id="entertainment" style="height: 800px; background-color: #d1fbfb;padding: 100px;">
+      <h2>Entertainment Section</h2>
+      <!-- Your entertainment content here -->
+    </div>
+    <div id="opinion" style="height: 800px; background-color: #d1fbfb;padding: 100px;">
+      <h2>Opinion Section</h2>
+      <!-- Your opinion content here -->
+    </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

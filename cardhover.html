@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Blog Cards</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      transition: all 0.3s ;
+      margin-top: 3%;
+    }
+
+    .card:hover {
+      border:2px solid #03264c; /* Change border color on hover */
+    }
+
+    .card-details {
+      display: none;
+    }
+
+    .card:hover .card-details {
+      display: block; /* Show additional details on hover */
+    }
+    h1{
+      padding-top: 3%;
+        text-align: center;
+        margin-bottom: 25px;
+      font-family:Monotype Corsiva;
+   
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<div class="container">
+    <h1><u>Fashion Dress</u></h1>
+<div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="image/dress1.webp" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title"> FLORAL MULTICOLOR TIE-UP DRESS</h5>
+          <p class="card-details">Price: <i class="bi bi-currency-rupee"></i>1,556<br>Sizes: S, M, L,XL,2XL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="image/dress2.jpg" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title">Top Palazzos Co-ords Set</h5>
+          <p class="card-details">Price: <i class="bi bi-currency-rupee"></i>700<br>Sizes: XS, S, M</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+          <img src="image/dress3.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Round Neck Flare Mini Party Dress</h5>
+            <p class="card-details">Price: <i class="bi bi-currency-rupee"></i>800<br>Sizes: XS, S, M</p>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="image/dress4.jpg" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title">Glamorous Mauve Colour Gown</h5>
+          <p class="card-details">Price: <i class="bi bi-currency-rupee"></i>1,660<br>Sizes: M, L, XL</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

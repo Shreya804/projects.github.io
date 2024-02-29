@@ -1,0 +1,22 @@
+body {
+  padding-top: 30px;
+} 
+
+#upperbar{
+  color: black;
+}
+#nav-bar li:hover a{
+color: black;
+
+}
+#nav-bar li{
+font-weight: bold;
+color: white;
+}
+.bg-custom{
+  background-color: rgb(13, 102, 154);
+
+}
+.nav-link,.navbar-brand{
+  color: white;
+}

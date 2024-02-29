@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+            font-size: 20px;
+        }
+     
+        .mainmenu li{
+            display: inline-block;
+            width: 200px;
+            text-align:center;
+
+            padding: 10px 0px;
+        }
+        .mainmenu li:hover{
+           background-color: rgb(19, 2, 34);
+        }
+        .mainmenu li:hover a{
+            color: white;
+        }
+         li a{
+            text-decoration: none;
+            color: black;
+        }
+        .submenu li{
+            display: block;
+            text-align: center;
+            line-height: 40px;
+       }
+        .submenu{
+            display: none;
+            position: absolute;
+            background: rgb(206, 169, 240);
+            margin-top: 10px; 
+        }
+        .mainmenu li:hover .submenu{
+            display: block;
+        }
+        .mainmenu li:hover .submenu{
+            display: block;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(206, 169, 240);
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-xs-4" class="col-xs-5">
+    <ul class="mainmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Cart</a></li>
+    </ul>
+    </div>
+    </div>
+    
+</body>
+</html>
